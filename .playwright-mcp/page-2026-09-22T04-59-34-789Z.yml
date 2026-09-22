@@ -1,0 +1,60 @@
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - navigation "Primary" [ref=e5]:
+      - button "User Profile" [ref=e6] [cursor=pointer]
+      - button "Home" [disabled] [ref=e10]
+      - button "Settings" [disabled] [ref=e14]
+    - complementary [ref=e18]:
+      - generic [ref=e19]: ProfileHub
+      - generic [ref=e24]:
+        - generic [ref=e25]: Applications
+        - button "User Profile" [ref=e26] [cursor=pointer]
+      - generic [ref=e27]:
+        - generic [ref=e28]: Pages
+        - button "Settings" [disabled] [ref=e29]
+        - button "Notifications" [disabled] [ref=e30]
+      - generic [ref=e31]:
+        - generic [ref=e32]:
+          - generic [ref=e33]: Profiles
+          - button "Create profile" [active] [ref=e34] [cursor=pointer]
+        - list [ref=e36]:
+          - listitem [ref=e63]:
+            - button "Somchai Jaidee somchai.jaidee@example.com" [ref=e64] [cursor=pointer]:
+              - generic [ref=e65]:
+                - strong [ref=e66]: Somchai Jaidee
+                - generic [ref=e67]: somchai.jaidee@example.com
+  - generic [ref=e38]:
+    - banner [ref=e39]:
+      - button "Search" [ref=e43] [cursor=pointer]
+      - generic [ref=e47]:
+        - button "Toggle theme" [ref=e48] [cursor=pointer]
+        - button "Notifications" [ref=e51] [cursor=pointer]
+        - generic [aria-hidden] [ref=e55]: U
+    - main [ref=e56]:
+      - generic [ref=e57]:
+        - heading "User Profile" [level=1] [ref=e58]
+        - navigation "Breadcrumb" [ref=e59]: Home / User Profile
+      - generic [ref=e151]:
+        - generic [ref=e152]:
+          - generic [ref=e153]:
+            - generic [ref=e154]: First name
+            - textbox "First name" [ref=e155]
+          - generic [ref=e156]:
+            - generic [ref=e157]: Last name
+            - textbox "Last name" [ref=e158]
+          - generic [ref=e159]:
+            - generic [ref=e160]: Email
+            - textbox "Email" [ref=e161]
+          - generic [ref=e162]:
+            - generic [ref=e163]: Phone number
+            - textbox "Phone number" [ref=e164]
+          - generic [ref=e165]:
+            - generic [ref=e166]: Avatar URL
+            - textbox "Avatar URL" [ref=e167]:
+              - /placeholder: https://...
+          - generic [ref=e168]:
+            - generic [ref=e169]: Bio
+            - textbox "Bio" [ref=e170]
+        - generic [ref=e171]:
+          - button "Cancel" [ref=e172] [cursor=pointer]
+          - button "Save changes" [ref=e173] [cursor=pointer]

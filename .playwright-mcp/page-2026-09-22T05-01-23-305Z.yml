@@ -1,0 +1,66 @@
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - navigation "Primary" [ref=e5]:
+      - button "User Profile" [ref=e6] [cursor=pointer]
+      - button "Home" [disabled] [ref=e10]
+      - button "Settings" [disabled] [ref=e14]
+    - complementary [ref=e18]:
+      - generic [ref=e19]: ProfileHub
+      - generic [ref=e24]:
+        - generic [ref=e25]: Applications
+        - button "User Profile" [ref=e26] [cursor=pointer]
+      - generic [ref=e27]:
+        - generic [ref=e28]: Pages
+        - button "Settings" [disabled] [ref=e29]
+        - button "Notifications" [disabled] [ref=e30]
+      - generic [ref=e31]:
+        - generic [ref=e32]:
+          - generic [ref=e33]: Profiles
+          - button "Create profile" [ref=e34] [cursor=pointer]
+        - list [ref=e36]:
+          - listitem [ref=e63]:
+            - button "Somchai Jaidee somchai.jaidee@example.com" [ref=e64] [cursor=pointer]:
+              - generic [ref=e65]:
+                - strong [ref=e66]: Somchai Jaidee
+                - generic [ref=e67]: somchai.jaidee@example.com
+          - listitem [ref=e176]:
+            - button "TP Test Playwright test.playwright@example.com" [ref=e177] [cursor=pointer]:
+              - generic [ref=e178]: TP
+              - generic:
+                - strong: Test Playwright
+                - generic: test.playwright@example.com
+  - generic [ref=e38]:
+    - banner [ref=e39]:
+      - button "Search" [ref=e43] [cursor=pointer]
+      - generic [ref=e47]:
+        - button "Toggle theme" [ref=e48] [cursor=pointer]
+        - button "Notifications" [ref=e51] [cursor=pointer]
+        - generic [aria-hidden] [ref=e55]: U
+    - main [ref=e56]:
+      - generic [ref=e57]:
+        - heading "User Profile" [level=1] [ref=e58]
+        - navigation "Breadcrumb" [ref=e59]: Home / User Profile
+      - generic [ref=e262]:
+        - generic [ref=e263]:
+          - generic [ref=e264]:
+            - generic [ref=e265]: First name
+            - textbox "First name" [ref=e266]: Test
+          - generic [ref=e267]:
+            - generic [ref=e268]: Last name
+            - textbox "Last name" [ref=e269]: Playwright
+          - generic [ref=e270]:
+            - generic [ref=e271]: Email
+            - textbox "Email" [ref=e272]: test.playwright@example.com
+          - generic [ref=e273]:
+            - generic [ref=e274]: Phone number
+            - textbox "Phone number" [ref=e275]: 099-999-9999
+          - generic [ref=e276]:
+            - generic [ref=e277]: Avatar URL
+            - textbox "Avatar URL" [ref=e278]:
+              - /placeholder: https://...
+          - generic [ref=e279]:
+            - generic [ref=e280]: Bio
+            - textbox "Bio" [ref=e281]: Created via Playwright MCP test.
+        - generic [ref=e282]:
+          - button "Cancel" [ref=e283] [cursor=pointer]
+          - button "Save changes" [ref=e284] [cursor=pointer]

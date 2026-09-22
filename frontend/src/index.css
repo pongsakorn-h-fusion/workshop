@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+
+:root {
+  /* Design tokens (UI_IMPROVEMENT_SPEC.md) */
+  --color-page: #dff7f6;
+  --color-surface: #ffffff;
+  --color-surface-soft: #f7f9fc;
+  --color-primary: #635bff;
+  --color-primary-soft: #eeecff;
+  --color-text: #202534;
+  --color-text-muted: #7b8190;
+  --color-border: #e7eaf0;
+  --color-danger: #d64545;
+  --shadow-shell: 0 24px 60px rgba(54, 63, 96, 0.14);
+  --shadow-card: 0 6px 20px rgba(54, 63, 96, 0.08);
+  --radius-shell: 8px;
+  --radius-card: 8px;
+  --transition-fast: 150ms ease;
+  --transition-base: 220ms ease;
+
+  /* Legacy aliases kept for existing components during migration */
+  --text: var(--color-text-muted);
+  --text-h: var(--color-text);
+  --bg: var(--color-surface);
+  --border: var(--color-border);
+  --code-bg: var(--color-surface-soft);
+  --accent: var(--color-primary);
+  --accent-bg: var(--color-primary-soft);
+  --accent-border: rgba(99, 91, 255, 0.5);
+  --social-bg: rgba(244, 243, 236, 0.5);
+  --shadow:
+    rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
+
+  --sans: 'Manrope', system-ui, 'Segoe UI', Roboto, sans-serif;
+  --heading: 'Manrope', system-ui, 'Segoe UI', Roboto, sans-serif;
+  --mono: ui-monospace, Consolas, monospace;
+
+  font: 16px/145% var(--sans);
+  letter-spacing: 0.1px;
+  color-scheme: light;
+  color: var(--color-text);
+  background: var(--color-page);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--color-page);
+}
+
+#root {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: left;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+h1,
+h2 {
+  font-family: var(--heading);
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+h1 {
+  font-size: 28px;
+  letter-spacing: -0.4px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 22px;
+  line-height: 118%;
+  letter-spacing: -0.2px;
+  margin: 0 0 8px;
+}
+
+p {
+  margin: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+code,
+.counter {
+  font-family: var(--mono);
+  display: inline-flex;
+  border-radius: 4px;
+  color: var(--text-h);
+}
+
+code {
+  font-size: 15px;
+  line-height: 135%;
+  padding: 4px 8px;
+  background: var(--code-bg);
+}

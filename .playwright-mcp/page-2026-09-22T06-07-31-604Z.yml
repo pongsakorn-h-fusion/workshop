@@ -1,0 +1,61 @@
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - navigation "Primary" [ref=e5]:
+      - button "User Profile" [ref=e6] [cursor=pointer]
+      - button "Home" [disabled] [ref=e10]
+      - button "Settings" [disabled] [ref=e14]
+    - complementary [ref=e18]:
+      - generic [ref=e19]: ProfileHub
+      - generic [ref=e24]:
+        - generic [ref=e25]: Applications
+        - button "User Profile" [ref=e26] [cursor=pointer]
+      - generic [ref=e27]:
+        - generic [ref=e28]: Pages
+        - button "Settings" [disabled] [ref=e29]
+        - button "Notifications" [disabled] [ref=e30]
+      - generic [ref=e31]:
+        - generic [ref=e32]:
+          - generic [ref=e33]: Profiles
+          - button "Create profile" [ref=e34] [cursor=pointer]
+        - list [ref=e36]:
+          - listitem [ref=e63]:
+            - button "Somchai Jaidee somchai.jaidee@example.com" [ref=e64] [cursor=pointer]:
+              - generic [ref=e65]:
+                - strong [ref=e66]: Somchai Jaidee
+                - generic [ref=e67]: somchai.jaidee@example.com
+  - generic [ref=e38]:
+    - banner [ref=e39]:
+      - button "Search" [ref=e43] [cursor=pointer]
+      - generic [ref=e47]:
+        - button "Toggle theme" [ref=e48] [cursor=pointer]
+        - button "Notifications" [ref=e51] [cursor=pointer]
+        - generic [aria-hidden] [ref=e55]: U
+    - main [ref=e56]:
+      - generic [ref=e57]:
+        - heading "User Profile" [level=1] [ref=e58]
+        - navigation "Breadcrumb" [ref=e59]: Home / User Profile
+      - generic [ref=e150]:
+        - generic [ref=e151]:
+          - generic [ref=e152]:
+            - generic [ref=e153]: First name
+            - textbox "First name" [ref=e154]: Somchai
+          - generic [ref=e155]:
+            - generic [ref=e156]: Last name
+            - textbox "Last name" [ref=e157]: Jaidee
+          - generic [ref=e158]:
+            - generic [ref=e159]: Email
+            - textbox "Email" [ref=e160]: somchai.jaidee@example.com
+          - generic [ref=e161]:
+            - generic [ref=e162]: Phone number
+            - textbox "Phone number" [ref=e163]: 081-234-5678
+          - generic [ref=e164]:
+            - generic [ref=e165]: Avatar URL
+            - textbox "Avatar URL" [ref=e166]:
+              - /placeholder: https://...
+              - text: https://i.pravatar.cc/150?img=12
+          - generic [ref=e167]:
+            - generic [ref=e168]: Bio
+            - textbox "Bio" [ref=e169]: Software engineer who loves building web applications.
+        - generic [ref=e170]:
+          - button "Cancel" [ref=e171] [cursor=pointer]
+          - button "Save changes" [ref=e172] [cursor=pointer]

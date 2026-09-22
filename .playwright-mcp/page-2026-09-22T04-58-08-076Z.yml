@@ -1,0 +1,35 @@
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - navigation "Primary" [ref=e5]:
+      - button "User Profile" [ref=e6] [cursor=pointer]
+      - button "Home" [disabled] [ref=e10]
+      - button "Settings" [disabled] [ref=e14]
+    - complementary [ref=e18]:
+      - generic [ref=e19]: ProfileHub
+      - button "Close menu" [ref=e20] [cursor=pointer]
+      - generic [ref=e24]:
+        - generic [ref=e25]: Applications
+        - button "User Profile" [ref=e26] [cursor=pointer]
+      - generic [ref=e27]:
+        - generic [ref=e28]: Pages
+        - button "Settings" [disabled] [ref=e29]
+        - button "Notifications" [disabled] [ref=e30]
+      - generic [ref=e31]:
+        - generic [ref=e32]:
+          - generic [ref=e33]: Profiles
+          - button "Create profile" [ref=e34] [cursor=pointer]
+        - list [ref=e36]:
+          - listitem [ref=e37]: No profiles yet.
+  - generic [ref=e38]:
+    - banner [ref=e39]:
+      - generic [ref=e40]:
+        - button "Open navigation menu" [ref=e41] [cursor=pointer]
+        - button "Search" [ref=e43] [cursor=pointer]
+      - generic [ref=e47]:
+        - button "Toggle theme" [ref=e48] [cursor=pointer]
+        - button "Notifications" [ref=e51] [cursor=pointer]
+        - generic [aria-hidden] [ref=e55]: U
+    - main [ref=e56]:
+      - generic [ref=e57]:
+        - heading "User Profile" [level=1] [ref=e58]
+        - navigation "Breadcrumb" [ref=e59]: Home / User Profile

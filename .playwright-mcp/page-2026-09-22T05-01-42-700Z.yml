@@ -1,0 +1,103 @@
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - navigation "Primary" [ref=e5]:
+      - button "User Profile" [ref=e6] [cursor=pointer]
+      - button "Home" [disabled] [ref=e10]
+      - button "Settings" [disabled] [ref=e14]
+    - complementary [ref=e18]:
+      - generic [ref=e19]: ProfileHub
+      - generic [ref=e24]:
+        - generic [ref=e25]: Applications
+        - button "User Profile" [ref=e26] [cursor=pointer]
+      - generic [ref=e27]:
+        - generic [ref=e28]: Pages
+        - button "Settings" [disabled] [ref=e29]
+        - button "Notifications" [disabled] [ref=e30]
+      - generic [ref=e31]:
+        - generic [ref=e32]:
+          - generic [ref=e33]: Profiles
+          - button "Create profile" [ref=e34] [cursor=pointer]
+        - list [ref=e36]:
+          - listitem [ref=e63]:
+            - button "Somchai Jaidee somchai.jaidee@example.com" [ref=e64] [cursor=pointer]:
+              - generic [ref=e65]:
+                - strong [ref=e66]: Somchai Jaidee
+                - generic [ref=e67]: somchai.jaidee@example.com
+          - listitem [ref=e176]:
+            - button "TP Test Playwright test.playwright@example.com" [ref=e177] [cursor=pointer]:
+              - generic [ref=e178]: TP
+              - generic:
+                - strong: Test Playwright
+                - generic: test.playwright@example.com
+  - generic [ref=e38]:
+    - banner [ref=e39]:
+      - button "Search" [ref=e43] [cursor=pointer]
+      - generic [ref=e47]:
+        - button "Toggle theme" [ref=e48] [cursor=pointer]
+        - button "Notifications" [ref=e51] [cursor=pointer]
+        - generic [aria-hidden] [ref=e55]: U
+    - main [ref=e56]:
+      - generic [ref=e57]:
+        - heading "User Profile" [level=1] [ref=e58]
+        - navigation "Breadcrumb" [ref=e59]: Home / User Profile
+      - generic [ref=e285]:
+        - generic [ref=e286]:
+          - generic [ref=e289]:
+            - generic [ref=e290]: TP
+            - generic [ref=e292]:
+              - heading "Test Playwright" [level=2] [ref=e293]
+              - paragraph [ref=e294]: test.playwright@example.com
+            - generic [ref=e295]:
+              - generic [ref=e296]:
+                - generic [ref=e297]: "24"
+                - generic [ref=e298]: Posts
+              - generic [ref=e299]:
+                - generic [ref=e300]: 1.2k
+                - generic [ref=e301]: Followers
+              - generic [ref=e302]:
+                - generic [ref=e303]: "340"
+                - generic [ref=e304]: Following
+            - generic [ref=e305]:
+              - button "Delete" [ref=e306] [cursor=pointer]
+              - button "Edit profile" [ref=e307] [cursor=pointer]
+          - tablist "Profile sections" [ref=e308]:
+            - tab "Profile" [selected] [ref=e309] [cursor=pointer]
+            - tab "Activity" [disabled] [ref=e310]
+            - tab "Connections" [disabled] [ref=e311]
+            - tab "Gallery" [disabled] [ref=e312]
+        - generic [ref=e314]:
+          - generic [ref=e315]:
+            - heading "Introduction" [level=3] [ref=e316]
+            - list [ref=e317]:
+              - listitem [ref=e318]:
+                - generic [ref=e323]:
+                  - generic [ref=e324]: Bio
+                  - generic [ref=e325]: Updated bio via Playwright MCP test.
+              - listitem [ref=e326]:
+                - generic [ref=e331]:
+                  - generic [ref=e332]: Email
+                  - generic [ref=e333]: test.playwright@example.com
+              - listitem [ref=e334]:
+                - generic [ref=e338]:
+                  - generic [ref=e339]: Phone
+                  - generic [ref=e340]: 099-999-9999
+              - listitem [ref=e341]:
+                - generic [ref=e346]:
+                  - generic [ref=e347]: Last updated
+                  - generic [ref=e348]: 9/22/2026, 5:01:41 AM
+          - generic [ref=e349]:
+            - generic [ref=e350]:
+              - heading "Profile details" [level=3] [ref=e351]
+              - generic [ref=e352]:
+                - term [ref=e353]: First name
+                - definition [ref=e354]: Test
+                - term [ref=e355]: Last name
+                - definition [ref=e356]: Playwright
+                - term [ref=e357]: Email
+                - definition [ref=e358]: test.playwright@example.com
+                - term [ref=e359]: Phone
+                - definition [ref=e360]: 099-999-9999
+            - generic [ref=e361]:
+              - heading "Recent update" [level=3] [ref=e362]
+              - paragraph [ref=e363]: Last updated 9/22/2026, 5:01:41 AM
+            - paragraph [ref=e367]: Activity feed is coming soon.

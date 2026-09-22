@@ -1,0 +1,94 @@
+- generic [ref=e3]:
+  - complementary [ref=e18]:
+    - generic [ref=e19]: ProfileHub
+    - button "Close menu" [ref=e20] [cursor=pointer]
+    - generic [ref=e24]:
+      - generic [ref=e25]: Applications
+      - button "User Profile" [ref=e26] [cursor=pointer]
+    - generic [ref=e27]:
+      - generic [ref=e28]: Pages
+      - button "Settings" [disabled] [ref=e29]
+      - button "Notifications" [disabled] [ref=e30]
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - generic [ref=e33]: Profiles
+        - button "Create profile" [ref=e34] [cursor=pointer]
+      - list [ref=e36]:
+        - listitem [ref=e63]:
+          - button "Somchai Jaidee somchai.jaidee@example.com" [ref=e64] [cursor=pointer]:
+            - generic [ref=e65]:
+              - strong [ref=e66]: Somchai Jaidee
+              - generic [ref=e67]: somchai.jaidee@example.com
+  - generic [ref=e38]:
+    - banner [ref=e39]:
+      - generic [ref=e40]:
+        - button "Open navigation menu" [active] [ref=e41] [cursor=pointer]
+        - button "Search" [ref=e43] [cursor=pointer]
+      - generic [ref=e47]:
+        - button "Toggle theme" [ref=e48] [cursor=pointer]
+        - button "Notifications" [ref=e51] [cursor=pointer]
+        - generic [aria-hidden] [ref=e55]: U
+    - main [ref=e56]:
+      - generic [ref=e57]:
+        - heading "User Profile" [level=1] [ref=e58]
+        - navigation "Breadcrumb" [ref=e59]: Home / User Profile
+      - generic [ref=e278]:
+        - generic [ref=e279]:
+          - generic [ref=e282]:
+            - generic [ref=e284]:
+              - heading "Somchai Jaidee" [level=2] [ref=e285]
+              - paragraph [ref=e286]: somchai.jaidee@example.com
+            - generic [ref=e287]:
+              - generic [ref=e288]:
+                - generic [ref=e289]: "24"
+                - generic [ref=e290]: Posts
+              - generic [ref=e291]:
+                - generic [ref=e292]: 1.2k
+                - generic [ref=e293]: Followers
+              - generic [ref=e294]:
+                - generic [ref=e295]: "340"
+                - generic [ref=e296]: Following
+            - generic [ref=e297]:
+              - button "Delete" [ref=e298] [cursor=pointer]
+              - button "Edit profile" [ref=e299] [cursor=pointer]
+          - tablist "Profile sections" [ref=e300]:
+            - tab "Profile" [selected] [ref=e301] [cursor=pointer]
+            - tab "Activity" [disabled] [ref=e302]
+            - tab "Connections" [disabled] [ref=e303]
+            - tab "Gallery" [disabled] [ref=e304]
+        - generic [ref=e306]:
+          - generic [ref=e307]:
+            - heading "Introduction" [level=3] [ref=e308]
+            - list [ref=e309]:
+              - listitem [ref=e310]:
+                - generic [ref=e315]:
+                  - generic [ref=e316]: Bio
+                  - generic [ref=e317]: Software engineer who loves building web applications.
+              - listitem [ref=e318]:
+                - generic [ref=e323]:
+                  - generic [ref=e324]: Email
+                  - generic [ref=e325]: somchai.jaidee@example.com
+              - listitem [ref=e326]:
+                - generic [ref=e330]:
+                  - generic [ref=e331]: Phone
+                  - generic [ref=e332]: 081-234-5678
+              - listitem [ref=e333]:
+                - generic [ref=e338]:
+                  - generic [ref=e339]: Last updated
+                  - generic [ref=e340]: 9/22/2026, 6:07:17 AM
+          - generic [ref=e341]:
+            - generic [ref=e342]:
+              - heading "Profile details" [level=3] [ref=e343]
+              - generic [ref=e344]:
+                - term [ref=e345]: First name
+                - definition [ref=e346]: Somchai
+                - term [ref=e347]: Last name
+                - definition [ref=e348]: Jaidee
+                - term [ref=e349]: Email
+                - definition [ref=e350]: somchai.jaidee@example.com
+                - term [ref=e351]: Phone
+                - definition [ref=e352]: 081-234-5678
+            - generic [ref=e353]:
+              - heading "Recent update" [level=3] [ref=e354]
+              - paragraph [ref=e355]: Last updated 9/22/2026, 6:07:17 AM
+            - paragraph [ref=e359]: Activity feed is coming soon.

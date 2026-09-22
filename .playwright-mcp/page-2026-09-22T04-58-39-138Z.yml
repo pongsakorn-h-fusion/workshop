@@ -1,0 +1,99 @@
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - navigation "Primary" [ref=e5]:
+      - button "User Profile" [ref=e6] [cursor=pointer]
+      - button "Home" [disabled] [ref=e10]
+      - button "Settings" [disabled] [ref=e14]
+    - complementary [ref=e18]:
+      - generic [ref=e19]: ProfileHub
+      - button "Close menu" [ref=e20] [cursor=pointer]
+      - generic [ref=e24]:
+        - generic [ref=e25]: Applications
+        - button "User Profile" [ref=e26] [cursor=pointer]
+      - generic [ref=e27]:
+        - generic [ref=e28]: Pages
+        - button "Settings" [disabled] [ref=e29]
+        - button "Notifications" [disabled] [ref=e30]
+      - generic [ref=e31]:
+        - generic [ref=e32]:
+          - generic [ref=e33]: Profiles
+          - button "Create profile" [ref=e34] [cursor=pointer]
+        - list [ref=e36]:
+          - listitem [ref=e63]:
+            - button "Somchai Jaidee somchai.jaidee@example.com" [ref=e64] [cursor=pointer]:
+              - generic [ref=e65]:
+                - strong [ref=e66]: Somchai Jaidee
+                - generic [ref=e67]: somchai.jaidee@example.com
+  - generic [ref=e38]:
+    - banner [ref=e39]:
+      - generic [ref=e40]:
+        - button "Open navigation menu" [active] [ref=e41] [cursor=pointer]
+        - button "Search" [ref=e43] [cursor=pointer]
+      - generic [ref=e47]:
+        - button "Toggle theme" [ref=e48] [cursor=pointer]
+        - button "Notifications" [ref=e51] [cursor=pointer]
+        - generic [aria-hidden] [ref=e55]: U
+    - main [ref=e56]:
+      - generic [ref=e57]:
+        - heading "User Profile" [level=1] [ref=e58]
+        - navigation "Breadcrumb" [ref=e59]: Home / User Profile
+      - generic [ref=e68]:
+        - generic [ref=e69]:
+          - generic [ref=e72]:
+            - generic [ref=e74]:
+              - heading "Somchai Jaidee" [level=2] [ref=e75]
+              - paragraph [ref=e76]: somchai.jaidee@example.com
+            - generic [ref=e77]:
+              - generic [ref=e78]:
+                - generic [ref=e79]: "24"
+                - generic [ref=e80]: Posts
+              - generic [ref=e81]:
+                - generic [ref=e82]: 1.2k
+                - generic [ref=e83]: Followers
+              - generic [ref=e84]:
+                - generic [ref=e85]: "340"
+                - generic [ref=e86]: Following
+            - generic [ref=e87]:
+              - button "Delete" [ref=e88] [cursor=pointer]
+              - button "Edit profile" [ref=e89] [cursor=pointer]
+          - tablist "Profile sections" [ref=e90]:
+            - tab "Profile" [selected] [ref=e91] [cursor=pointer]
+            - tab "Activity" [disabled] [ref=e92]
+            - tab "Connections" [disabled] [ref=e93]
+            - tab "Gallery" [disabled] [ref=e94]
+        - generic [ref=e96]:
+          - generic [ref=e97]:
+            - heading "Introduction" [level=3] [ref=e98]
+            - list [ref=e99]:
+              - listitem [ref=e100]:
+                - generic [ref=e105]:
+                  - generic [ref=e106]: Bio
+                  - generic [ref=e107]: Software engineer who loves building web applications.
+              - listitem [ref=e108]:
+                - generic [ref=e113]:
+                  - generic [ref=e114]: Email
+                  - generic [ref=e115]: somchai.jaidee@example.com
+              - listitem [ref=e116]:
+                - generic [ref=e120]:
+                  - generic [ref=e121]: Phone
+                  - generic [ref=e122]: 081-234-5678
+              - listitem [ref=e123]:
+                - generic [ref=e128]:
+                  - generic [ref=e129]: Last updated
+                  - generic [ref=e130]: 9/22/2026, 3:25:34 AM
+          - generic [ref=e131]:
+            - generic [ref=e132]:
+              - heading "Profile details" [level=3] [ref=e133]
+              - generic [ref=e134]:
+                - term [ref=e135]: First name
+                - definition [ref=e136]: Somchai
+                - term [ref=e137]: Last name
+                - definition [ref=e138]: Jaidee
+                - term [ref=e139]: Email
+                - definition [ref=e140]: somchai.jaidee@example.com
+                - term [ref=e141]: Phone
+                - definition [ref=e142]: 081-234-5678
+            - generic [ref=e143]:
+              - heading "Recent update" [level=3] [ref=e144]
+              - paragraph [ref=e145]: Last updated 9/22/2026, 3:25:34 AM
+            - paragraph [ref=e149]: Activity feed is coming soon.

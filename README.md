@@ -46,3 +46,10 @@ The app runs on `http://localhost:5173` and talks to the API at the URL configur
 ## Running both together
 
 Start the backend first (`dotnet run` in `backend/`), then the frontend (`npm run dev` in `frontend/`). CORS is already configured on the API to allow `http://localhost:5173`.
+
+## Documentation
+
+- [USER_MANUAL.md](USER_MANUAL.md) — วิธีใช้งานแอปสำหรับผู้ใช้ทั่วไป (พร้อมภาพประกอบ)
+- [PROJECT_SUMMARY.md](PROJECT_SUMMARY.md) — ภาพรวมโปรเจกต์
+- [API-Spec.md](API-Spec.md) — ข้อมูล API endpoints
+- [SDS.md](SDS.md) — เอกสารออกแบบระบบ (Software Design Specification)
